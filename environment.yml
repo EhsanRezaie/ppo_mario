@@ -1,0 +1,20 @@
+name: mario-ppo
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - pip=23.2.1                
+  - numpy
+  - matplotlib
+  - opencv
+  - pip:
+      - torch==1.13.1
+      - torchvision==0.14.1
+      - torchaudio==0.13.1
+      - stable-baselines3==1.7.0
+      - gym==0.21.0
+      - nes-py==8.2.1
+      - gym-super-mario-bros==7.3.0
+      - tqdm
+      - shimmy==0.2.1
