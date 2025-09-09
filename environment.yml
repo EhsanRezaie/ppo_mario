@@ -9,9 +9,9 @@ dependencies:
   - matplotlib
   - opencv
   - pip:
-      - torch==1.13.1
-      - torchvision==0.14.1
-      - torchaudio==0.13.1
+      - torch==1.13.1+cu117
+      - torchvision==0.14.1+cu117
+      - torchaudio==0.13.1+cu117
       - stable-baselines3==1.7.0
       - gym==0.21.0
       - nes-py==8.2.1
