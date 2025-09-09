@@ -18,3 +18,5 @@ dependencies:
       - gym-super-mario-bros==7.3.0
       - tqdm
       - shimmy==0.2.1
+      - tensorboard
+      - protobuf==3.20.*
